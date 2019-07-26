@@ -65,12 +65,12 @@ typedef struct u_button_device ub_dev_t;
 
 #ifdef __cplusplus
 extern "C" {
+#endif
 
 ub_err_t ub_device_init(ub_dev_t *dev);
 void ub_device_state_set(ub_dev_t *dev);
 void ub_device_state_handle(ub_dev_t *dev);
 
-#endif
 #ifdef __cplusplus
 }
 #endif
